@@ -1,0 +1,652 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hd a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    transition:  all 0.2s ease-in-out;
+}
+
+.hd a:hover{
+    color: chartreuse;
+}
+
+.search{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.151) 0.5px 0.5px 0.5px 0.5px;
+}
+
+.fas{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.small-alart{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(172, 171, 171);
+    width: 100%;
+}
+
+.small-slider{
+  position: relative;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;                                               
+}
+
+.front-pictures{
+        display: flex;
+        width: 7530px;
+        transition: 0.6s;
+        
+}
+
+.k{
+    width: 1880px;  
+}
+
+.k img{
+    height: auto;
+    width: 100%;
+}
+.pic-sliders{
+    width: 100%;
+    position: absolute;
+    transition: 0.45s;
+    
+}
+.slider-dots{
+    display: float;
+    position: relative;
+    margin-top: -40px;
+    margin-left: 40%;
+    
+    
+}
+
+.btn{
+ 
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    margin-top: 5px;
+   
+    border-radius: 15px;
+    background-color: rgb(141, 255, 47);
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+.main{
+    background-color: greenyellow;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      display:inline-block;
+      margin-bottom: 50px;
+  }
+.brands1 {
+    
+    display: flex;
+    
+   
+    
+}
+
+.brands1 img{
+    height:auto;
+    width: 100%;
+    
+    
+}
+
+.brands2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+   
+    
+}
+
+.brands2 img{
+    height:auto;
+    width: 100%;
+   
+}
+    
+    
+
+
+.audio{
+  padding:0px 20px;  
+  cursor: pointer;
+}
+
+.lifestyle{
+    padding:0px 20px; 
+    cursor: pointer; 
+  }
+  
+  .power{
+    padding:0px 20px; 
+    cursor: pointer; 
+  }
+  .wearable{
+    padding:0px 20px; 
+    cursor: pointer; 
+  }
+
+
+  .audio p{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      position: relative;
+      color: white;
+      left: 20px;
+      top: 40px;
+      
+      
+  }
+  .lifestyle p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    left: 20px;
+    top: 40px;
+    
+    
+}
+
+.wearable p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    left: 20px;
+    top: 40px;
+    
+    
+}
+
+.power p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    left: 20px;
+    top: 40px;
+    
+    
+}
+
+.product-hearder-text{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+
+.boss-over{
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.producs-list{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.producs-list::-webkit-scrollbar{
+    height: 5px;
+    width: 2px;
+    border: 1px solid #d5d5d5;
+    background-color: #d5d5d5;
+}
+
+.producs-list::-webkit-scrollbar-track{
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3)
+    outline: 1px solid #eeee;
+}
+
+.producs-list::-webkit-scrollbar-thumb{
+    background-color: rgb(153, 255, 0);
+}
+
+
+
+.product-subitem{
+    flex:0 0 auto;
+    object-fit: cover;
+    width: 350px;
+    
+    cursor: pointer;
+    margin: 5px;
+    padding: 0 40px;
+    overflow: hidden;
+    transform: scale(.95);
+    transition: all 0.3s;
+   
+    
+}
+
+.product-subitem img{
+   width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.192)  .10px .10px 0.5px .5px ;
+}
+.product-subitem:hover{
+    transform: scale(1);}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.prices{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+.nprice{
+    margin-right: 10px;
+    color: rgb(94, 255, 0);
+}
+
+.oprice{
+    color: rgb(129, 129, 129);
+}
+
+.arrowi{
+
+
+height: 300px;
+width: 50px;
+margin-left: -120px;
+background-color: rgba(0, 0, 0, 0.075);
+border: none;
+
+}
+
+.ki{
+    
+height: 300px;
+width: 50px;
+  margin-right: -120px;
+   color: blue;
+   background-color: rgba(0, 0, 0, 0.11);
+   border: none;
+}
+
+.kwa:hover{
+    box-shadow: rgba(0, 0, 0, 0.452)  1px 1px 0.5px .5px ; 
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.before-foter{
+    
+    display: flex;
+    background-color:#323232;
+   justify-content: space-around;
+   padding: 50px 100px;
+}
+
+.before-foter h2{
+    color: greenyellow;
+    padding: 5px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.before-foter p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 6px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: #323232;
+    padding: 20px;
+}
+
+footer p{
+   margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------Daily Products-------------------------------------*/
+
+
+.daily-main{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+aside{
+    width: 20%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-top: 5px;
+    
+}
+
+.productsOnDailyMenu{
+    width: 75%;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sortingbar{
+    height: 50px;
+   display: flex;
+   justify-content: inherit;
+   
+ 
+   
+
+
+
+}
+
+.box1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2 {
+  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   position: absolute;
+   right: 01%;
+}
+select{
+   
+    height: 40px;
+    width: 110px;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 30px
+}
+   
+.bossProducs{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product-display1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 300px;
+    margin: 20px;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: all 1s ease-in-out;
+
+}
+
+.product-display1:hover{
+    transform: scale(1.1);
+}
+
+
+.daily-product-discriotion{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.checked {
+    color: orange;
+    
+  }
+  .daily-product-review{
+      padding: 10px;
+  }
+
+  .dailyprice{
+     
+      display: flex;
+  }
+  .dailynewprice{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-right: 9px;
+      color: red;
+  }
+
+  .dailyoldprice{
+      text-decoration: line-through;
+      
+  }
+  .daily-pages-slider{
+    margin-left: 30px;
+    display: flex;
+    margin: 10px;
+
+   
+  }
+
+  .daily-pages-slider a{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-decoration: none;
+      font-size: 22px;
+    
+      color: black;
+      padding: 6px;
+
+  }
+
+ .showperpage{
+     position: absolute;
+     right: 5%;
+     
+ }
+
+ #email{
+   height: 25px; 
+   width: 370px; 
+   border-radius: 30px;
+   padding: 10px;
+   background-color: #323232;
+   border: 1px solid   rgb(109, 109, 109);
+ }
+ #emialsender{
+   margin-left: -90px;
+    height: 36px; width: 80px; 
+    border-radius: 30px;
+    background-color: rgb(90, 90, 90);
+    border: none;
+ }
+
+
+ /*-----------------------------products-submenu---------------------------------------*/
+.products-submenu{
+ display: none; 
+ transition: all o.5s ease-in;  
+ }
+
+.products:hover .products-submenu{
+    display: block;
+    position: absolute;
+    
+    left: 0%;
+    
+    margin-right: 20%;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    border-radius:0 0 80px 80px;
+    box-shadow: 0px .5px 2px;
+    
+    
+    
+   
+ }
+
+ .products-submanu-itemdisplay{
+     display: flex;
+     justify-content: space-around;
+    
+ }
+
+ .itemsdisplaydetails{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px;
+ }
+
+ .itemsdisplaydetails p{
+    padding: 8px;
+    font-family: sans-serif;
+ }
+
+ .itemsdisplaydetails h1{
+     padding-left: 8px;
+ }
+
+
+ .supportsubmenu{
+     display: none;
+     z-index: 2;
+    
+    
+     
+ }
+
+
+ .Support:hover .supportsubmenu{
+     display: block;
+     position: absolute;
+    
+ }
+
+ .supporttruck{
+     background-color: white;
+   
+    padding: 50px;
+    z-index: 2;
+    height: 160px;
+    width: 250px;
+    border-radius:0 0   50px 50px;
+    box-shadow: 0 1px 3px;
+
+ }
+
+ .supportTooWhy{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     cursor: pointer;
+ }
+
+ .supportTooWhy p{
+     padding-bottom: 10px;
+ }
+
+ .supportTooWhy:hover{
+     background-color: #bdbdbd;
+     border-radius: 30px;
+ }
+
+
+
+
+
+ /*--------------------------------------------------*/
+ .support-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+ }
+
+ .support-guys{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+     width: 60%;
+     font-family: 'Inter', sans-serif;
+     font-weight: 300;
+     font-size: larger;
+     padding: 30px;
+ }
+
+ #ordertrucker{
+     width: 100%;
+     height: 40px;
+ }
+#truckBtn{
+    height: 40PX;
+    width: 90PX;
+    margin-top:40PX ;
+    border: none;
+    color:white ;
+    border-radius: 15PX;
+    background-color: rgb(0, 128, 0);
+    cursor: pointer;
+    margin-bottom:80px ;
+    transition: all 0.3s ease-in-out;
+}
+
+#truckBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px;
+}
